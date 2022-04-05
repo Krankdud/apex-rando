@@ -48,6 +48,10 @@ const weapons = [
     "Wingman"
 ]
 
+window.onload = function() {
+    randomAll();
+}
+
 function randomLegend() {
     let availLegends = getAvailableLegends();
     document.querySelector("#selected_legend").innerHTML = getRandomItem(availLegends);
