@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Apex Randomizer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Apex Randomizer</h1>
+    <div class="container">
+      <h2>Options</h2>
+      <div>
+        <h3>Available Legends</h3>
+        <div class="grid">
+          <span><input type="checkbox" id="lgd_bloodhound" checked><label for="lgd_bloodhound">Bloodhound</label></span>
+          <span><input type="checkbox" id="lgd_gibraltar" checked><label for="lgd_gibraltar">Gibraltar</label></span>
+          <span><input type="checkbox" id="lgd_lifeline" checked><label for="lgd_lifeline">Lifeline</label></span>
+          <span><input type="checkbox" id="lgd_pathfinder" checked><label for="lgd_pathfinder">Pathfinder</label></span>
+          <span><input type="checkbox" id="lgd_wraith" checked><label for="lgd_wraith">Wraith</label></span>
+          <span><input type="checkbox" id="lgd_bangalore" checked><label for="lgd_bangalore">Bangalore</label></span>
+          <span><input type="checkbox" id="lgd_caustic" checked><label for="lgd_caustic">Caustic</label></span>
+          <span><input type="checkbox" id="lgd_mirage" checked><label for="lgd_mirage">Mirage</label></span>
+          <span><input type="checkbox" id="lgd_octane" checked><label for="lgd_octane">Octane</label></span>
+          <span><input type="checkbox" id="lgd_wattson" checked><label for="lgd_wattson">Wattson</label></span>
+          <span><input type="checkbox" id="lgd_crypto" checked><label for="lgd_crypto">Crypto</label></span>
+          <span><input type="checkbox" id="lgd_revenant" checked><label for="lgd_revenant">Revenant</label></span>
+          <span><input type="checkbox" id="lgd_loba" checked><label for="lgd_loba">Loba</label></span>
+          <span><input type="checkbox" id="lgd_rampart" checked><label for="lgd_rampart">Rampart</label></span>
+          <span><input type="checkbox" id="lgd_horizon" checked><label for="lgd_horizon">Horizon</label></span>
+          <span><input type="checkbox" id="lgd_fuse" checked><label for="lgd_fuse">Fuse</label></span>
+          <span><input type="checkbox" id="lgd_valkyrie" checked><label for="lgd_valkyrie">Valkyrie</label></span>
+          <span><input type="checkbox" id="lgd_seer" checked><label for="lgd_seer">Seer</label></span>
+          <span><input type="checkbox" id="lgd_ash" checked><label for="lgd_ash">Ash</label></span>
+          <span><input type="checkbox" id="lgd_madmaggie" checked><label for="lgd_madmaggie">Mad Maggie</label></span>
+        </div>
+      </div>
+      <div>
+        <h3>Weapons</h3>
+        <input type="checkbox" id="wpn_unique" checked><label for="wpn_unique">Weapons must be unique</label>
+      </div>
+   </div>
+   <div class="container">
+     <h2>Legend</h2>
+     <div class="item" id="selected_legend">
+       Bloodhound
+     </div>
+     <button class="rand_button" type="button" onclick="randomLegend()">Randomize</button>
+   </div>
+   <div class="container">
+     <h2>Weapons</h2>
+     <div class="item" id="weapon_one">
+       R-99 SMG
+     </div>
+     <div class="item" id="weapon_two">
+       VK27 Flatline
+     </div>
+     <button class="rand_button" type="button" onclick="randomWeapons()">Randomize</button>
+   </div>
+   <button type="button" onclick="randomAll()">Randomize all</button>
+   
+   <script src="randomizer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background: #212738;
+    color: #fffcf9;
+    font-family: Helvetia, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background: #2d364c;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container h2 {
+    margin-top: 0rem;
+}
+
+.item {
+    color: #fa824c;
+    font-size: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.rand_button {
+    margin-top: 1rem;
+}
