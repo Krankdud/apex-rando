@@ -18,7 +18,8 @@ const legends = new Map([
     ["lgd_valkyrie", "Valkyrie"],
     ["lgd_seer", "Seer"],
     ["lgd_ash", "Ash"],
-    ["lgd_madmaggie", "Mad Maggie"]
+    ["lgd_madmaggie", "Mad Maggie"],
+    ["lgd_newcastle", "Newcastle"]
 ]);
 
 const weapons = [
@@ -29,10 +30,13 @@ const weapons = [
     "Alternator SMG",
     "Prowler Burst PDW",
     "R-99 SMG",
+//  "Volt SMG",  <-- In supply drops
     "C.A.R. SMG",
     "Devotion LMG",
     "L-STAR EMG",
+    "M600 Spitfire",
     "Rampage LMG",
+//  "G7 Scout"  <-- In supply drops
     "Triple Take",
     "30-30 Repeater",
     "Bocek Compound Bow",
@@ -40,7 +44,7 @@ const weapons = [
     "Longbow DMR",
     "Sentinel",
     "EVA-8 Auto",
-    "Mastiff Shotgun",
+//  "Mastiff Shotgun",  <-- In supply drops
     "Mozambique Shotgun",
     "Peacekeeper",
     "RE-45 Auto",
