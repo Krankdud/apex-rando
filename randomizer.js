@@ -21,6 +21,7 @@ const legends = new Map([
     ["lgd_madmaggie", "Mad Maggie"],
     ["lgd_newcastle", "Newcastle"],
     ["lgd_vantage", "Vantage"],
+    ["lgd_catalyst", "Catalyst"],
 ]);
 
 const weapons = [
@@ -45,10 +46,10 @@ const weapons = [
     "Longbow DMR",
     "Sentinel",
     "EVA-8 Auto",
-//  "Mastiff Shotgun",  <-- In supply drops
+    "Mastiff Shotgun",
     "Mozambique Shotgun",
     "Peacekeeper",
-    "RE-45 Auto",
+//  "RE-45 Auto",  <-- In supply drops
     "P2020",
     "Wingman"
 ]
