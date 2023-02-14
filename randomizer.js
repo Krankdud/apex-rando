@@ -27,8 +27,9 @@ const legends = new Map([
 const weapons = [
     "HAVOC Rifle",
     "VK-47 Flatline",
-    "Hemlok Burst AR",
+//  "Hemlok Burst AR",  <-- In supply drops
     "R-301 Carbine",
+    "Nemesis",
     "Alternator SMG",
     "Prowler Burst PDW",
     "R-99 SMG",
@@ -37,7 +38,7 @@ const weapons = [
     "Devotion LMG",
     "L-STAR EMG",
     "M600 Spitfire",
-//  "Rampage LMG",  <-- In supply drops
+    "Rampage LMG",
     "G7 Scout",
     "Triple Take",
     "30-30 Repeater",
