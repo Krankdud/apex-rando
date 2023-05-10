@@ -22,6 +22,7 @@ const legends = new Map([
     ["lgd_newcastle", "Newcastle"],
     ["lgd_vantage", "Vantage"],
     ["lgd_catalyst", "Catalyst"],
+    ["lgd_ballistic", "Ballistic"]
 ]);
 
 const weapons = [
@@ -36,7 +37,7 @@ const weapons = [
     "Volt SMG",
     "C.A.R. SMG",
     "Devotion LMG",
-    "L-STAR EMG",
+//  "L-STAR EMG",  <-- In supply drops
     "M600 Spitfire",
     "Rampage LMG",
     "G7 Scout",
@@ -50,7 +51,7 @@ const weapons = [
     "Mastiff Shotgun",
     "Mozambique Shotgun",
     "Peacekeeper",
-//  "RE-45 Auto",  <-- In supply drops
+    "RE-45 Auto",
     "P2020",
     "Wingman"
 ]
