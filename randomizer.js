@@ -23,21 +23,22 @@ const legends = new Map([
     ["lgd_vantage", "Vantage"],
     ["lgd_catalyst", "Catalyst"],
     ["lgd_ballistic", "Ballistic"]
+    ["lgd_conduit", "Conduit"]
 ]);
 
 const weapons = [
     "HAVOC Rifle",
     "VK-47 Flatline",
-//  "Hemlok Burst AR",  <-- In supply drops
+    "Hemlok Burst AR",
     "R-301 Carbine",
     "Nemesis",
     "Alternator SMG",
-    "Prowler Burst PDW",
+//  "Prowler Burst PDW",  <-- In supply drops
     "R-99 SMG",
     "Volt SMG",
     "C.A.R. SMG",
     "Devotion LMG",
-//  "L-STAR EMG",  <-- In supply drops
+    "L-STAR EMG",
     "M600 Spitfire",
     "Rampage LMG",
     "G7 Scout",
@@ -53,7 +54,7 @@ const weapons = [
     "Peacekeeper",
     "RE-45 Auto",
     "P2020",
-    "Wingman"
+//  "Wingman"              <-- In supply drops
 ]
 
 window.onload = function() {
