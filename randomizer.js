@@ -22,7 +22,7 @@ const legends = new Map([
     ["lgd_newcastle", "Newcastle"],
     ["lgd_vantage", "Vantage"],
     ["lgd_catalyst", "Catalyst"],
-    ["lgd_ballistic", "Ballistic"]
+    ["lgd_ballistic", "Ballistic"],
     ["lgd_conduit", "Conduit"]
 ]);
 
@@ -53,7 +53,7 @@ const weapons = [
     "Mozambique Shotgun",
     "Peacekeeper",
     "RE-45 Auto",
-    "P2020",
+    "P2020"
 //  "Wingman"              <-- In supply drops
 ]
 
